@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Initial storage date:</strong>
+  <%= @client.initial_storage_date %>
+</p>
+
+<p>
+  <strong>Gigabytes:</strong>
+  <%= @client.gigabytes %>
+</p>
+
+<p>
+  <strong>Case name:</strong>
+  <%= @client.case_name %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @client.active %>
+</p>
+
+<%= link_to 'Edit', edit_client_path(@client) %> |
+<%= link_to 'Back', clients_path %>
